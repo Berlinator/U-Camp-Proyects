@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    /*margin: 0px;*/
+    background-color: #0f0e17;
+    
+}
+
+@media screen and (max-width: 600px) {
+    *{
+        flex-direction: column;
+    }
+}
+
+p{
+    color:#a7a9be;
+    font-size: 23px;
+}
+
+h1,h2,h3{
+    color: #fffffe;
+}
+
+button{
+    background-color: #ff8906;
+}
+
+:placeholder-shown{
+    color: black
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo{
+    height: 2.5rem;
+    width:auto;
+    margin-top: 15px;
+}
+
+.Container1{
+    display: flex;
+    flex-direction: row;
+}
+
+header div nav a{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: inherit;
+}
+
+#Sabado{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.Jumbo{
+    display: flex;
+}
+
+.Main-Image{
+    width: 700px;
+}
+
+#oferta{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: black;
+}
+
+h1{
+    font-size: 60px;
+
+}
+
+.Izquierda{
+    padding: 30px;
+
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+
+.email input{
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.email button{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+
+.Container2{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.Container2 .card{
+    width: 330px;
+    height: 430px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.Container2 .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Container2 .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.Container2 .card h3{
+    font-weight: 600;
+}
+
+.Container2 .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Container2 .card a{
+
+}
+
+.Adicional{
+    display: flex;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.Berlin{
+    margin: 20px;
+}
+
+.Adicional img{
+    width: 1000px;
+}
+
+
+section{
+    background-color: white;
+}
+
+.Container2{
+    background-color: white;
+}
+
+.footer{
+    background-color: white;
+}
