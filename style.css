@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     /*margin: 0px;*/
-    background-color: #0f0e17;
+    
     
 }
 
@@ -31,7 +31,7 @@ button{
 header{
     display: flex;
     justify-content: space-around;
-
+    background-color: #0f0e17;
 }
 
 .logo{
@@ -50,6 +50,10 @@ header div nav a{
     margin-top: 20px;
 }
 
+#abreu{
+    margin-top: 20px;
+}
+
 a{
     color: white;
     text-decoration: inherit;
@@ -62,6 +66,7 @@ a{
 
 .Jumbo{
     display: flex;
+    background-color: #0f0e17;
 }
 
 .Main-Image{
@@ -153,6 +158,8 @@ h1{
 
 .Adicional{
     display: flex;
+    align-items: center;
+    background-color: #0f0e17;
 }
 
 h2{
@@ -161,10 +168,12 @@ h2{
 
 .Berlin{
     margin: 20px;
+    padding: 20px;
+    width: 45%;
 }
 
 .Adicional img{
-    width: 1000px;
+    width: 700px;
 }
 
 
@@ -178,4 +187,26 @@ section{
 
 .footer{
     background-color: white;
+
+}
+
+.svg{
+    display: flex;
+    
+}
+
+.Tejeda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+    
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+}
+
+.ul-footer{
+    list-style: none;
 }
