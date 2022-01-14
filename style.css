@@ -198,8 +198,8 @@ section{
 .Tejeda{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly
-    
+    justify-content: space-evenly;
+    font-size: 23px;
 }
 
 .end{
@@ -209,4 +209,9 @@ section{
 
 .ul-footer{
     list-style: none;
+}
+
+.Tejeda ul li{
+    margin: 20px;
+    color: #a7a9be;
 }
